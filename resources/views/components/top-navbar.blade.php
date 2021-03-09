@@ -1,5 +1,5 @@
-<div class="bg-dark" style="padding-bottom: 4rem; padding-top: 4rem">
-
+<div class="bg-dark">
+    <img class="img-fluid" src="{{ asset('images/top-banner.jpg') }}" alt="top-banner">
 </div>
 <div class="container-fluid d-flex justify-content-between align-items-center mt-4">
     <a class="h2 d-flex align-items-center justify-content-center" href="#">
@@ -15,7 +15,7 @@
     </a>
     <h4 class="font-weight-bold">RESOURCES</h4>
     <div class="d-flex align-items-center">
-        <div class="input-group input-group-sm">
+        <div class="input-group input-group">
             <input type="text" class="form-control" placeholder="Search" aria-label="Search"
                    aria-describedby="button-addon2">
             <button class="btn btn-outline-secondary btn-sm" type="button">
@@ -26,7 +26,7 @@
                 </svg>
             </button>
         </div>
-        <img src="https://via.placeholder.com/150" height="40px" width="40px" class="rounded-circle ml-2" alt="imageplacehodler">
+        <img src="https://via.placeholder.com/150" height="40px" width="40px" class="glow rounded-circle ml-4" alt="imageplacehodler">
     </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

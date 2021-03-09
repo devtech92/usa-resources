@@ -5,10 +5,18 @@
 // Variables
 @import 'variables';
 
+$primary: #611b92;
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 body {
     font-family: 'Cormorant SC';
     margin-bottom: 50px;
+}
+
+
+.glow {
+    box-shadow: 0 0 10px 10px #210dc9;
+    Z-INDEX: 100;
 }
