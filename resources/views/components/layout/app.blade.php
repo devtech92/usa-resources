@@ -6,9 +6,12 @@
 
     <title>USA Resources</title>
 
-    {{--Style --}}
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
+    {{--    Fontawesome--}}
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    {{--Style --}}
     <script src="{{asset('js/app.js')}}" defer></script>
 
 </head>
@@ -19,7 +22,7 @@
 
 <main role="main">
 
-    <div id="app" class="container mt-3" >
+    <div id="app" class="container mt-3">
         {{ $slot }}
     </div><!-- /.container -->
 

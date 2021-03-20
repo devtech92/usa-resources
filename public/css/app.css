@@ -10942,11 +10942,43 @@ a.text-dark:focus {
 body {
   font-family: "Cormorant SC";
   margin-bottom: 50px;
+  background-color: white;
 }
 
 .glow {
   box-shadow: 0 0 10px 10px #210dc9;
   Z-INDEX: 100;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+.icon-bar {
+  position: fixed;
+  top: 59%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+/* Style the social media icons with color, if you want */
+
+.icon-bar a {
+  background-color: #0000004f;
+  color: white;
+  margin: 7px 0;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
 }
 
 
