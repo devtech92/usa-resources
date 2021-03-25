@@ -1,9 +1,11 @@
+
 <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse text-center"
      style="background-color: black; color: white; font-size: 20px;">
+
   <div class="position-sticky">
-    <div class="">
-      <img class="h-25 w-100 img-fluid" src="{{ asset('images/logo.jpg') }}" alt="log">
-    </div>
+    <a href="/">
+      <img class="h-25 img-fluid img-responsive" src="{{ asset('images/logo.jpg') }}" alt="log">
+    </a>
 
     <ul class="nav flex-column pt-3">
       <li class="nav-item">
@@ -44,6 +46,8 @@
       </li>
     </ul>
 
+    <img class="img-fluid mt-3" src="{{ asset('images/dashboard-bottom.png') }}" alt="log"
+         style="height: 50px">
 
   </div>
 </nav>

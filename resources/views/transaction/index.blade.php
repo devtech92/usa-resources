@@ -1,4 +1,4 @@
-<x-layout.dashboard>
+<x-layout.app>
 
   <div class="mt-5">
     <div class="container">
@@ -55,4 +55,4 @@
     </div>
   </div>
 
-</x-layout.dashboard>
+</x-layout.app>
