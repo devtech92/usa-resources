@@ -1,6 +1,6 @@
-<div class="d-none d-sm-block">
+<div class="d-sm-block d-md-none">
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Cosplay</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">Home</a>
 
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
             data-toggle="collapse" data-target="#sidebarMenu"

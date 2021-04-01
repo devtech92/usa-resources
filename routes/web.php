@@ -182,3 +182,7 @@ Route::get('/transaction', function () {
 Route::get('/dashboard', function () {
   return view('dashboard');
 });
+
+Route::get('/admin/transaction', function () {
+  return view('transaction.admin-index');
+});
