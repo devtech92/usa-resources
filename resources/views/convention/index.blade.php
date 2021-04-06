@@ -1,5 +1,5 @@
 <x-layout.app>
-    <div class="mt-5">
+    <div class="container mt-5">
         <table class="table">
             <thead class="thead-light h3 font-weight-bold">
             <tr>

@@ -186,3 +186,39 @@ Route::get('/dashboard', function () {
 Route::get('/admin/transaction', function () {
   return view('transaction.admin-index');
 });
+
+Route::get('/member', function () {
+  return view('member.member');
+});
+
+Route::get('/clients/listing', function () {
+  return view('client.listing');
+});
+
+Route::get('/clients/coin-popup', function () {
+  return view('client.coin-popup');
+});
+
+Route::get('/clients/chat', function () {
+  return view('client.chat');
+});
+Route::get('/clients/purchase', function () {
+  return view('client.purchase');
+});
+Route::get('/clients/account-recovery', function () {
+  return view('client.account-recovery');
+});
+Route::get('/clients/register', function () {
+  return view('client.register');
+});
+Route::get('/clients/gallery', function () {
+  return view('client.gallery');
+});
+
+Route::get('/clients/create-your-profile', function () {
+  return view('client.create-your-profile');
+});
+
+Route::get('/clients/index', function () {
+  return view('client.index');
+});

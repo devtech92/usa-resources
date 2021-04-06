@@ -1,0 +1,1864 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Conv_CormorantSC-Light";
+}
+a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+.style_none {
+  list-style: none;
+  margin-bottom: 0;
+}
+.style_none {
+  list-style: none;
+}
+.readmore {
+  margin-bottom: 30px;
+}
+.readmore a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #ffb900;
+  padding: 14px 36px;
+}
+.readmore a:hover {
+  background: #000;
+}
+input:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@font-face {
+  font-family: "Conv_CormorantSC-Light";
+  src: url("../webfonts/CormorantSC-Light.eot");
+  src: local("☺"), url("../webfonts/CormorantSC-Light.woff") format("woff"),
+    url("../webfonts/CormorantSC-Light.ttf") format("truetype"),
+    url("../webfonts/CormorantSC-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_CormorantGaramond-Light";
+  src: url("../webfonts/CormorantGaramond-Light.eot");
+  src: local("☺"),
+    url("../webfonts/CormorantGaramond-Light.woff") format("woff"),
+    url("../webfonts/CormorantGaramond-Light.ttf") format("truetype"),
+    url("../webfonts/CormorantGaramond-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Bright Sunshine Demo";
+  src: url("../webfonts/Bright Sunshine Demo.eot");
+  src: local("☺"), url("../webfonts/Bright Sunshine Demo.woff") format("woff"),
+    url("../webfonts/Bright Sunshine Demo.ttf") format("truetype"),
+    url("../webfonts/Bright Sunshine Demo.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*********************************************
+    Contact Css
+**********************************************/
+.contact-wrap {
+  background: url(../images/app-bg.jpg) no-repeat top;
+  background-position: fixed;
+  background-size: cover;
+}
+.appbox {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.formbox {
+  background: #000;
+  padding: 40px;
+}
+.app-wrap .input-group {
+  margin-top: 15px;
+}
+.formbox h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.formbox .form-control,
+.formbox textarea.form-control {
+  border-radius: 0;
+  height: 48px;
+  font-family: "Conv_CormorantSC-Light";
+  font-size: 20px;
+  font-weight: 300;
+  background: no-repeat;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #28262b;
+  padding-left: 0;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c4c5c7 !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c4c5c7 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c4c5c7 !important;
+}
+
+.formbox textarea.form-control {
+  height: 80px;
+}
+.btnWrp {
+  text-align: center;
+  display: block;
+  margin-top: 40px !important;
+}
+.btnWrp button {
+  border: none;
+  cursor: pointer;
+}
+
+/*********************************************
+    Favorite Css
+**********************************************/
+.formcol textarea.form-control {
+  height: 200px !important;
+}
+.favorite-wrap {
+  padding: 40px 0;
+}
+.favorite-wrap h3 {
+  margin-top: 10px;
+}
+.favorite-wrap h3 a {
+  font-size: 18px;
+  color: #000;
+  text-transform: inherit;
+  font-family: "Conv_CormorantGaramond-Light";
+}
+.iconswrp span {
+  margin-right: 8px;
+}
+.coin {
+  color: #cca43d;
+}
+.favorite-wrap p {
+  font-size: 16px;
+  font-family: "Conv_CormorantGaramond-Light";
+  margin-bottom: 5px;
+  color: #a0a0a0;
+}
+.pricingbox {
+  display: flex;
+}
+.priceInfo {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.priceInfo span {
+  font-weight: normal;
+  font-style: oblique;
+  text-decoration: line-through;
+  color: #a2a2a2;
+}
+
+.offprice {
+  font-size: 16px;
+  color: #d05e7d;
+  margin-left: 6px;
+  font-weight: 600;
+}
+.heart_icon {
+  float: right;
+  margin-left: 30px;
+  color: #626de9;
+}
+.favorite-wrap h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.favorite-wrap h1 i {
+  font-size: 24px;
+  color: #bdbdbd;
+}
+.favWro {
+  margin-bottom: 30px;
+}
+
+/*********************************************
+    Coin Css
+**********************************************/
+.coin-wrap {
+  text-align: center;
+}
+.coinSec {
+  background: url(../images/coin-popup-bg.jpg) no-repeat top;
+  position: relative;
+  background-size: cover;
+  max-width: 1080px;
+  padding: 520px 40px 100px 40px;
+}
+.close_icon_pop {
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 38px;
+  padding: 5px;
+  font-size: 38px;
+  /* float: right; */
+  border: none;
+  display: block;
+  text-shadow: 0 0 12px #000;
+  border-radius: 100%;
+}
+button:focus {
+  outline: none;
+}
+.coin-wrap h1 {
+  color: #fff;
+  font-size: 85px;
+  text-transform: uppercase;
+}
+.coin-wrap .priceWrp {
+  font-size: 100px;
+  color: #b9bdc2;
+  margin-top: 25px;
+  line-height: 80px;
+}
+.coin-wrap h3 {
+  font-size: 82px;
+  font-family: "Conv_CormorantSC-Light";
+  color: #fff;
+  margin-top: 22px;
+}
+
+.coins {
+  margin-top: 60px;
+}
+.view_btn {
+  margin-top: 80px;
+}
+.view_btn a {
+  text-decoration: none;
+  background: #753192;
+  font-family: "Conv_CormorantSC-Light";
+  font-weight: bold;
+  border-radius: 80px;
+  color: #000;
+  font-size: 60px;
+  display: inline-block;
+  padding: 28px 70px;
+}
+.view_btn a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/*********************************************
+    Member Css
+**********************************************/
+.member_header {
+  background: #130015;
+  padding: 15px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.member_header h1 {
+  color: #fff;
+}
+.member_header img {
+  margin-right: 15px;
+}
+.member_list {
+  padding: 40px 80px 30px 80px;
+  background: #6b6565; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5d5858+0,0f0e0e+100 */
+  background: rgb(93, 88, 88); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(93, 88, 88, 1) 0%,
+    rgba(15, 14, 14, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(93, 88, 88, 1) 0%,
+    rgba(15, 14, 14, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(93, 88, 88, 1) 0%,
+    rgba(15, 14, 14, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d5858', endColorstr='#0f0e0e',GradientType=0 ); /* IE6-9 */
+}
+.member_list h3 {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 56px;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-weight: normal;
+}
+.member_list ul li {
+  margin-top: 60px;
+}
+
+.member_footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+.member_footer span {
+  margin-left: 30px;
+}
+
+/*********************************************
+    Chat Css
+**********************************************/
+.chat_header {
+  background: #130015;
+  padding: 0 40px;
+}
+.chat_header ul {
+  margin-bottom: 0;
+}
+.chat_header ul li {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  padding: 25px 50px 25px 45px;
+}
+.chat_header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Conv_CormorantSC-Light";
+}
+.chatWrp {
+}
+.chat_list {
+  background: url(../images/chat-bg.jpg) no-repeat top;
+  background-size: cover;
+  padding: 50px 30px 50px 30px;
+}
+.chat_list h3 {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 26px;
+}
+.chatImg {
+  text-align: center;
+}
+.chat_info p {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Conv_CormorantGaramond-Light";
+}
+.chat_icon {
+  margin-top: 30px;
+  text-align: right;
+}
+.chat_list ul li {
+  margin-top: 40px;
+}
+.chat_icon img {
+  margin-left: 5px;
+}
+.chatWrp .col-lg-3:nth-child(1) {
+  padding-right: 0;
+}
+.chatWrp .col-lg-7:nth-child(2) {
+  padding-right: 0;
+}
+
+/*********************************************
+    Members Follow Css
+**********************************************/
+.follow_member {
+  background: url(../images/member-bg.jpg) no-repeat top;
+  background-size: cover;
+}
+.memberList_header span {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Conv_CormorantSC-Light";
+  margin-left: 15px;
+}
+.memberList_header ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.memberList_header ul li:first-child {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.member_content {
+  padding: 0px 60px 60px 60px;
+  margin-top: -70px;
+  text-align: center;
+}
+.member_content .follow_btn {
+  margin-top: 30px;
+}
+.member_content h3 {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Conv_Bright Sunshine Demo";
+  font-size: 60px;
+}
+.member_content p,
+.memText {
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.member_content p span {
+  display: block;
+}
+.memText {
+  text-transform: none;
+  margin-top: 50px;
+  line-height: 50px;
+  letter-spacing: inherit;
+}
+.memText span {
+  display: block;
+}
+.listingImg {
+  margin: 40px 0;
+}
+
+/*********************************************
+    Admin Css
+**********************************************/
+.sidebar_widget {
+  background: #000;
+  padding: 40px 20px;
+  text-align: center;
+}
+.adminList {
+  list-style: none;
+  text-align: center;
+  margin-top: 60px;
+}
+.adminList li {
+  margin: 50px 0;
+}
+.adminList li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 36px;
+}
+.adminList li a:hover {
+  color: #fe4fff;
+}
+.cosplay_logo img {
+  width: 200px;
+}
+.adminsidebarWrp p {
+  margin-top: 250px;
+  font-size: 30px;
+  color: #000;
+}
+
+/*********************************************
+    Gallery Css
+**********************************************/
+.gallery-wrap {
+  background: #000;
+  padding-bottom: 50px;
+}
+.userImg {
+  margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff !important;
+}
+.sell_btn a {
+  background: #fff;
+  padding: 8px 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+  text-decoration: none;
+}
+.sell_btn span {
+  margin-right: 6px;
+}
+.gallery-wrap .form-control {
+  border-radius: 30px;
+  width: 78%;
+}
+.gallery_logoImg {
+  text-align: center;
+  margin-top: 20px;
+}
+.gallerysec {
+  border: 5px solid #a219fd;
+  border-radius: 10px;
+  padding: 10px;
+}
+.gallery_border {
+  border: 1px solid #a219fd;
+  padding: 10px;
+  position: relative;
+}
+.gallerysec {
+  text-align: center;
+  color: #fff;
+}
+.gallery-wrap h3 {
+  font-family: "Conv_CormorantGaramond-Light";
+  position: relative;
+  margin-top: 15px;
+}
+.gallery-wrap h3:before {
+  content: "";
+  background: #a219fd;
+  height: 1px;
+  width: 80px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -40px;
+}
+.gallery-wrap p {
+  margin-top: 30px;
+  color: rgb(255 255 255 / 61%);
+}
+.size {
+  font-size: 30px;
+}
+.signsWrp span:last-child {
+  margin-left: 5px;
+}
+.rupees {
+  font-size: 20px;
+}
+.freeShipping {
+  margin-top: 15px;
+}
+.followWrp {
+  margin-top: 20px;
+  font-family: "Conv_CormorantGaramond-Light";
+}
+.infoBtn {
+  margin-top: 20px;
+}
+.infoBtn a {
+  text-decoration: none;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 24px;
+}
+.infoBtn a:hover {
+  background: #a219fd;
+  color: #fff;
+}
+.heart_iconWrp {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+}
+.heart_iconWrp a {
+  font-size: 24px;
+  color: #838383;
+}
+.heart_iconWrp a:hover {
+  color: #fff;
+}
+.form-inline {
+  width: 56%;
+}
+.close-toggler {
+  display: none;
+}
+
+.nice-select.open .list {
+  width: 100%;
+}
+
+.nice-select.form-control {
+  margin-bottom: 40px;
+  border-radius: 0;
+  border: none;
+  line-height: 32px;
+  margin-top: 40px;
+}
+
+/*********************************************
+    Register Css
+**********************************************/
+.register_page {
+  background: #000;
+  text-align: center;
+}
+.register_page .col-lg-8 {
+  padding-right: 0;
+}
+.register_page .col-lg-4 {
+  padding-left: 0;
+}
+.register_box h3 {
+  position: relative;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+}
+.register_box h3:before {
+  content: "";
+  background: #fff;
+  height: 2px;
+  width: 140px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -70px;
+}
+.register_box p {
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 24px;
+  color: #fff;
+  line-height: 42px;
+  margin-top: 70px;
+}
+.register_box {
+  padding: 70px 40px;
+}
+.register_btn {
+  margin-top: 50px;
+}
+.register_btn a {
+  color: #545454;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+}
+.register_btn a:hover {
+  color: #8a148f;
+}
+
+/*********************************************
+    Account Css
+**********************************************/
+.account-wrap {
+  background: url(../images/app-bg.jpg) no-repeat top;
+  background-size: cover;
+  padding: 50px 0;
+}
+.recover_page {
+  background: #000;
+  padding: 80px;
+  text-align: center;
+  border: 2px solid rgb(255 255 255 / 16%);
+}
+.recover_page .logo {
+  margin-bottom: 30px;
+}
+.recover_page h3 {
+  color: #fff;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.recover_page p {
+  color: #fff;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.recover_page .form-control {
+  border-radius: 0;
+  height: 48px;
+}
+.recover_page .input-group {
+  margin-top: 30px;
+}
+.recover_page .submit {
+  width: 100%;
+  height: 48px;
+  color: #fff;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 24px;
+  border: none;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ec33f0+0,a2019c+100 */
+  background: rgb(236, 51, 240); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(236, 51, 240, 1) 0%,
+    rgba(162, 1, 156, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(236, 51, 240, 1) 0%,
+    rgba(162, 1, 156, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(236, 51, 240, 1) 0%,
+    rgba(162, 1, 156, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec33f0', endColorstr='#a2019c',GradientType=1 ); /* IE6-9 */
+}
+
+/*********************************************
+    Purchase Css
+**********************************************/
+.purchase_page {
+  background: #000;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+.purchase_page h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.purchase_coin {
+  margin: 50px 0;
+}
+.purchase_page p {
+  color: #fff;
+  font-size: 24px;
+}
+.purchase_btn {
+  margin-top: 40px;
+}
+.purchase_btn a {
+  color: #ab6003;
+}
+.close_icon {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.close_icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  color: #ab6003;
+}
+.quantity {
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.quantity p {
+  margin-right: 40px;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+.quantity .form-control {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+/*********************************************
+    Header Css
+**********************************************/
+.topbar {
+  text-align: center;
+  padding: 15px 0;
+}
+.topbar h2 {
+  font-family: "Conv_CormorantGaramond-Light";
+  color: #000;
+  text-transform: uppercase;
+}
+.bg-light {
+  background: #000 !important;
+}
+.header_wrap .navbar-light .navbar-nav .nav-link {
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 18px;
+}
+.header_wrap .navbar-light .navbar-nav .nav-link:hover {
+  color: #ff47ff;
+}
+.header_wrap .navbar-light .navbar-nav .nav-item {
+  padding: 0rem 1rem;
+}
+.header_wrap .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+  color: #f2ce22;
+  padding-left: 50px;
+}
+
+/*********************************************
+    Video banner Css
+**********************************************/
+.video {
+  position: relative;
+  background-color: black;
+  height: 96vh;
+  min-height: 38rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*********************************************
+    CTA Css
+**********************************************/
+.cta-overlap {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  background-color: #000;
+}
+.cta-overlap .text h2 {
+  margin-bottom: 30px;
+  font-family: "Conv_CormorantGaramond-Light";
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+.gold-btn {
+  background: url(../images/gold-button.png) center no-repeat;
+  background-size: contain !important;
+  line-height: normal;
+  font-size: 26px !important;
+  font-weight: 700;
+  color: #000;
+  border: none;
+  padding: 16px 26px;
+}
+.black-btn:hover,
+.gold-btn:hover {
+  color: #ff18ff;
+}
+
+/*********************************************
+    Selll & Buy Css
+**********************************************/
+.sell_buy-Wrp {
+  text-align: center;
+  padding: 60px 0;
+}
+.sell_buy-Wrp .tabsLinks {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.tabsLinks li {
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
+}
+.tabsLinks li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-weight: bold;
+}
+.tabsLinks li:before {
+  content: "";
+  background: #000;
+  width: 6px;
+  height: 2px;
+  position: absolute;
+  top: 24px;
+  right: -4px;
+}
+.tabsLinks li:last-child:before {
+  display: none;
+}
+.cosWrp h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sell_buy-Wrp p {
+  margin-top: 50px;
+  font-size: 32px;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  color: #000;
+  line-height: 38px;
+}
+.black-btn {
+  background: url(../images/black-button.png) center no-repeat;
+  background-size: cover;
+  line-height: normal;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 20px 38px;
+}
+
+.home_gallery .col-lg-4,
+.colImg {
+  overflow: hidden;
+}
+.home_gallery .row a img,
+.colImg img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.home_gallery .row a:hover img,
+.colImg:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*********************************************
+    Home Gallery Css
+**********************************************/
+.home_gallery .no-gutters > [class*="col-"] {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.home_gallery .no-gutters div {
+  margin-bottom: 4px;
+}
+.normal-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.normal-btn a {
+  line-height: normal;
+  font-size: 2rem;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  display: inline-block;
+}
+
+/*********************************************
+    Meet Css
+**********************************************/
+
+.meet_wrap {
+  text-align: center;
+  padding: 60px 0;
+}
+.meet_wrap .meet_coin img {
+  width: 200px;
+}
+.meet_wrap h2 {
+  color: #b27826;
+  font-size: 36px;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.meet_wrap p {
+  color: #000;
+  font-size: 24px;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.home_coins {
+  margin-top: 50px;
+}
+
+/*********************************************
+    Ribbon Css
+**********************************************/
+.ribbon-wrapper {
+  margin-top: 70px;
+}
+.site-footer {
+  padding: 5em 0 5em 0;
+  background: #000 !important;
+  font-size: 16px;
+}
+.site-footer .gold-highlight {
+  text-shadow: 1px 1px 6px #e0be65;
+  color: #f6ea9c !important;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  margin-bottom: 30px;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.footer-social a.twitter {
+  background: url(../images/twitter.png) center no-repeat;
+  background-size: 100%;
+}
+.footer-social a {
+  width: 62px;
+  height: 62px;
+  display: inline-block;
+}
+.site-footer a {
+  color: #a2a2a2;
+}
+.footer-social a.facebook {
+  background: url(../images/facebook.png) center no-repeat;
+  background-size: 100%;
+}
+.footer-social a.instagram {
+  background: url(../images/instagram.png) center no-repeat;
+  background-size: 100%;
+}
+.footer-social a.pinterest {
+  background: url(../images/pinterest.png) center no-repeat;
+  background-size: 100%;
+}
+.footer-social a.youtube {
+  background: url(../images/youtube.png) center no-repeat;
+  background-size: 100%;
+}
+
+.site-footer p {
+  font-family: "Conv_CormorantGaramond-Light";
+  color: #a2a2a2;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.link-area {
+  list-style: disc;
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px !important;
+}
+.footer-text {
+  text-transform: uppercase;
+  color: #a2a2a2;
+}
+
+.profilebox {
+  background: #000;
+}
+.profileWrp h3 {
+  color: #d09cda;
+}
+.profilebox .form-control {
+  border: none;
+  background: #fff;
+  padding: 6px 12px;
+  width: 100%;
+}
+.profilebox .input-group {
+  margin-top: 15px;
+}
+.profilebox label {
+  font-family: "Conv_CormorantGaramond-Light";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+.profilebox label span {
+  margin-left: 10px;
+}
+.alertbox {
+  font-size: 18px;
+  text-transform: none;
+}
+.profilebox .text-center {
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+.profilebox .row {
+  display: block;
+}
+
+.sldierWrp .smallslider ul li {
+  float: none !important;
+  width: 80px !important;
+}
+/*
+.sldierWrp .smallslider ul li img{width: 80px;}
+
+*/
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top: 20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width: 100px;
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+.btn_sec span {
+  display: block;
+  margin-bottom: 10px;
+}
+.right_details {
+  display: flex;
+  margin-bottom: 40px;
+}
+.shippingLinks {
+  margin-left: 15px;
+}
+.shippingLinks li {
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 18px;
+}
+.btn_sec {
+  margin: 0 20px 0 30px;
+}
+.details-wrap h4 {
+  font-family: "Conv_CormorantGaramond-Light";
+  font-size: 22px;
+}
+.add_cart {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-left: 50px;
+}
+.add_cart {
+  text-decoration: none;
+  color: #000;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+.add_cart:hover {
+  color: #a71afe;
+}
+.add_cart:focus {
+  outline: none;
+}
+.days_ago {
+  display: flex;
+  justify-content: space-between;
+}
+.days_ago {
+  margin-top: 50px;
+  border-top: 1px solid #eaeaea;
+  padding: 5px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.days_ago p {
+  font-size: 15px;
+  font-family: "Conv_CormorantGaramond-Light";
+  margin-bottom: 0;
+}
+.days_ago p i {
+  font-size: 10px;
+}
+.rightbox {
+  margin-top: 50px;
+}
+.quest_sec {
+  float: right;
+  margin-top: 15px;
+}
+.quest_sec span {
+  display: block;
+  font-size: 16px;
+  font-family: "Conv_CormorantGaramond-Light";
+  font-weight: 600;
+}
+.list_info h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.list_info {
+  display: flex;
+}
+.list_del {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.list_del p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.follow_text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.follow_text img {
+  width: 30px;
+}
+.secure_icon {
+  margin-top: 20px;
+}
+.shippingLinks li a {
+  color: #000;
+}
+.details_boxWrp .col-lg-3 {
+  padding-left: 0;
+}
+.details_boxWrp .adminList li {
+  margin: 30px 0;
+}
+.shippingLinks li a:hover {
+  color: #a71afe;
+}
+
+.product_form .card-header {
+  padding: 0;
+}
+.product_form .card {
+  border: none;
+  margin-bottom: 30px;
+}
+.product_form .btn-link {
+  padding: 20px;
+  padding-left: 62px;
+  /* color: #000;*/
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 18px;
+  /*background-color: rgba(0,0,0,.03);*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.product_form .card-body {
+  padding: 20px;
+  background: #fff;
+}
+.product_form .nice-select.open .list {
+  width: 100%;
+}
+.product_form .nice-select.form-control {
+  line-height: 28px;
+  border: 1px solid #ced4da;
+}
+.product_form h5 .btn:before {
+  content: "\f067";
+  background: #ae008d;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  line-height: 30px;
+  border-radius: 100%;
+}
+
+.cart_btn {
+  background: #dbba00;
+  padding: 14px 36px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  border: none;
+}
+.cart_btn:hover {
+  background: #050528;
+  color: #fff;
+}
+.product_form .collapse.show:before {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  color: #ae008d;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  text-decoration: none;
+}
+
+.btn-link {
+  background: #ae008d;
+  color: #fff;
+}
+.btn-link.collapsed {
+  background: rgba(0, 0, 0, 0.03);
+  color: #000;
+}
+.btn-link:hover {
+  background: #ae008d;
+  color: #fff;
+}
+.btn:hover:before {
+  background: #fff !important;
+  color: #ae008d !important;
+}
+
+/*********************************************
+    Media Screen Css
+**********************************************/
+
+@media screen and (max-width: 1200px) {
+  .adminList li a {
+    font-size: 30px;
+  }
+  .gallery-wrap .form-control {
+    width: 70%;
+  }
+  .form-inline {
+    width: 47%;
+  }
+  .navbar-toggler {
+    background: #fff;
+  }
+  .register_box p {
+    margin-top: 54px;
+    line-height: 38px;
+  }
+  .register_btn {
+    margin-top: 16px;
+  }
+  .header_wrap .navbar-light .navbar-nav .nav-item {
+    padding: 0rem 0.5rem;
+  }
+  .video {
+    background: url(../videos/Cosplay-exchange-Aniamtion.mp4) black no-repeat
+      center center scroll;
+    min-height: 28rem;
+    height: 100%;
+  }
+  .video video {
+    display: block;
+    width: 160%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .days_ago {
+    margin-top: 75px;
+  }
+  .profileformImg img {
+    width: 100%;
+  }
+  .video {
+    background: url(../videos/Cosplay-exchange-Aniamtion.mp4) black no-repeat
+      center center scroll;
+    min-height: 20rem;
+    height: 100%;
+  }
+  .header_wrap .navbar-nav {
+    margin-top: 46px;
+  }
+  .header_wrap .navbar-light .navbar-nav .nav-link:hover {
+    background: #ff47ff;
+    color: #fff;
+    padding-left: 20px;
+  }
+  .register_page .col-lg-4 {
+    padding-left: 15px;
+  }
+  .register_page .col-lg-8 {
+    padding-right: 15px;
+  }
+  .navbar-collapse {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 100%;
+    width: 60%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out,
+      -webkit-transform 0.3s ease-in-out;
+    z-index: 10000;
+  }
+
+  .navbar-collapse.show {
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .close-toggler {
+    background: none;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    font-size: 24px;
+    float: right;
+    display: block;
+  }
+
+  .gallery-wrap .form-control,
+  .form-inline {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    border: 1px solid #353535;
+    padding: 20px;
+  }
+
+  .coin-wrap h3 {
+    font-size: 50px;
+  }
+  .coin-wrap h1 {
+    font-size: 60px;
+  }
+  .coin-wrap .priceWrp {
+    font-size: 70px;
+  }
+  .coinSec {
+    padding: 330px 40px 65px 40px;
+  }
+  .view_btn a {
+    font-size: 40px;
+  }
+  .favorite-wrap .col {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .member_header h1 {
+    font-size: 24px;
+  }
+  .member_list h3 {
+    font-size: 26px;
+  }
+  .chat_list h3 {
+    font-size: 30px;
+  }
+  .chat_info p {
+    font-size: 20px;
+  }
+  .chat_icon img {
+    width: 50px;
+  }
+  .chat_list h3 {
+    margin-top: 10px;
+  }
+  .chat_header ul li {
+    padding: 12px 32px 12px 30px;
+  }
+  .adminsidebarWrp p {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .coin-wrap h3 {
+    font-size: 30px;
+  }
+  .purchase_page h1 {
+    font-size: 28px;
+  }
+  .coin-wrap .priceWrp {
+    line-height: 15px;
+  }
+  .coinSec {
+    padding: 248px 40px 65px 40px;
+  }
+  .coin-wrap h1 {
+    font-size: 40px;
+  }
+  .coin-wrap .priceWrp {
+    font-size: 50px;
+  }
+  .adminList li a {
+    font-size: 24px;
+  }
+  .view_btn a {
+    font-size: 30px;
+  }
+  .view_btn a {
+    padding: 28px 40px;
+  }
+  .favorite-wrap .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .member_header {
+    padding: 15px 26px;
+  }
+  .member_header img {
+    width: 26px;
+  }
+  .member_list h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .member_list {
+    padding: 40px 25px 50px 25px;
+  }
+  .member_footer span img {
+    width: 50px;
+  }
+  .member_footer {
+    margin-top: 50px;
+  }
+  .coinImg img {
+    width: 80px;
+  }
+  .circle_icon img {
+    width: 100px;
+  }
+  .member_content {
+    margin-top: 0;
+  }
+  .memberList_header ul li:first-child {
+    padding-top: 10px;
+  }
+  .memberList_header span {
+    font-size: 38px;
+  }
+  .follow_btn img {
+    width: 200px;
+  }
+  .member_content p,
+  .memText {
+    font-size: 24px;
+    line-height: 32px !important;
+  }
+  .member_list ul li:first-child {
+    margin-top: 0;
+  }
+  .account-wrap {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .recover_page h3 {
+    font-size: 28px;
+  }
+  .follow_text {
+    margin: 0;
+    font-size: 24px;
+  }
+  .right_details {
+    display: block;
+  }
+  .btn_sec {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .formbox h3 {
+    font-size: 22px;
+  }
+  .cosWrp .col-lg-6:first-child {
+    margin-bottom: 30px;
+  }
+  .profilebox label {
+    font-size: 16px;
+  }
+  .formbox {
+    padding: 20px;
+  }
+  .meet_wrap h2 {
+    font-size: 20px;
+  }
+  .meet_wrap p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .recover_page {
+    padding: 18px;
+  }
+  .footer-social a {
+    width: 46px;
+  }
+  .recover_page .submit {
+    font-size: 20px;
+  }
+  .footer-bottom {
+    margin-top: 0;
+  }
+  .topbar h2 {
+    font-size: 20px;
+  }
+  .cta-overlap .text h2 {
+    font-size: 22px;
+  }
+  .sell_buy-Wrp p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .tabsLinks li a {
+    font-size: 20px;
+  }
+  .tabsLinks li:before {
+    top: 14px;
+  }
+  .cosWrp h2 {
+    font-size: 20px;
+  }
+  .recover_page p {
+    font-size: 16px;
+  }
+  .recover_page h3 {
+    margin-bottom: 10px;
+  }
+  .recover_page .logo img {
+    width: 180px;
+  }
+  .account-wrap {
+    padding: 50px 0;
+  }
+  .register_box h3 {
+    font-size: 28px;
+  }
+  .coin-wrap h1 {
+    font-size: 26px;
+  }
+  .coinSec {
+    padding: 165px 20px 65px 20px;
+  }
+  .coins {
+    margin-top: 40px;
+  }
+  .follow_btn img {
+    width: 160px;
+  }
+  .coin-wrap h3 {
+    font-size: 22px;
+  }
+  .adminList li a {
+    font-size: 18px;
+  }
+  .cosplay_logo img {
+    width: 140px;
+  }
+  .coin-wrap .priceWrp {
+    font-size: 36px;
+  }
+  .view_btn a {
+    padding: 16px 31px;
+  }
+  .coinSec {
+    padding: 200px 40px 65px 40px;
+  }
+  .view_btn a {
+    font-size: 22px;
+  }
+  .favorite-wrap .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .view_btn {
+    margin-top: 65px;
+  }
+  .favWro {
+    max-width: 217px;
+    margin: 0 auto 30px auto;
+  }
+  .member_list h3 {
+    font-size: 18px;
+  }
+  .member_header h1 {
+    font-size: 16px;
+  }
+  .member_list ul li {
+    margin-top: 30px;
+  }
+  .chat_list {
+    padding: 20px;
+  }
+  .chat_list h3 {
+    font-size: 16px;
+    margin: 5px;
+  }
+  .chat_info p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .chat_icon img {
+    width: 12px;
+  }
+  .chat_header {
+    padding: 0 12px;
+  }
+  .chat_header ul li {
+    padding: 12px 21px 12px 20px;
+  }
+  .chat_list h3 {
+    margin-top: 0;
+  }
+  .chat_header ul li a {
+    font-size: 18px;
+  }
+  .adminList li {
+    margin: 25px 0;
+  }
+  .member_header img {
+    margin-right: 6px;
+  }
+  .member_content h3 {
+    font-size: 36px;
+  }
+  .adminsidebarWrp p {
+    font-size: 18px;
+  }
+  .recover_page p {
+    margin-bottom: 20px;
+  }
+  .member_content {
+    padding: 20px;
+  }
+  .listingImg img {
+    width: 160px;
+  }
+  .member_content p,
+  .memText {
+    font-size: 16px;
+    line-height: 26px !important;
+  }
+  .memText {
+    margin-top: 25px;
+  }
+  .memberList_header ul li:first-child {
+    padding-left: 20px;
+  }
+  .memberList_header span {
+    font-size: 24px;
+  }
+  .circle_icon img {
+    width: 75px;
+  }
+  .coinImg img {
+    width: 60px;
+  }
+  .member_footer span img {
+    width: 30px;
+  }
+  .member_footer span {
+    margin-left: 15px;
+  }
+}

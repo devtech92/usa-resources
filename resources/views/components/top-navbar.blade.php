@@ -29,6 +29,7 @@
         <img src="https://via.placeholder.com/150" height="40px" width="40px" class="glow rounded-circle ml-4" alt="imageplacehodler">
     </div>
 </div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
