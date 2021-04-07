@@ -1,11 +1,11 @@
-(function($) { 
+(function($) {
 
 $('[data-toggle="offcanvas"]').on('click', function () {
     $('.navbar-collapse').toggleClass('show');
     });
 
 
-  
+
 
 
     /*==== Nav ====*/
@@ -18,7 +18,7 @@ $('[data-toggle="offcanvas"]').on('click', function () {
         e.preventDefault();
         $(this).next().slideToggle('');
     });
-    
+
 
 /* ================ Nice Select ================ */
     $(document).ready(function() {
@@ -32,10 +32,10 @@ $('[data-toggle="offcanvas"]').on('click', function () {
     $(document).ready(function() {
         $(".owl-carousel").owlCarousel({
             loop: true,
-            margin: 30,
+            margin: 50,
             nav: false,
             autoplay: true,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 5000,
             autoplayHoverPause: true,
             responsiveClass: true,
             responsive: {
@@ -82,7 +82,7 @@ $('[data-toggle="offcanvas"]').on('click', function () {
   //   itemMargin: 5,
   //   asNavFor: '#slider'
   // });
- 
+
   // $('#slider').flexslider({
   //   animation: "slide",
   //   controlNav: false,

@@ -28,12 +28,10 @@
 }
 
 
+// Bootstrap
 // Variables
 @import 'variables';
-
 $primary: #611b92;
-
-// Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 body {

@@ -2,7 +2,7 @@
   <div class="gallery-wrap">
     <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light" style="font-family: 'sans-serif'; font-size: 17px">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -13,14 +13,13 @@
             <span><i class="fas fa-times-circle" aria-hidden="true"></i></span>
           </button>
 
-
           <form class="form-inline my-2 my-lg-0">
             <div class="userImg"><img src="{{asset('images/userImg.jpg')}}"></div>
             <input class="form-control mr-sm-2" type="search" placeholder="Search all Cosplays" aria-label="Search">
           </form>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Download App <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="#">Download App <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><img src="{{ asset('images/bell_icon.jpg') }}"></a>
@@ -59,11 +58,11 @@
         </div>
       </form>
 
-      <ul class="owl-carousel">
+      <ul class="owl-carousel" style="padding-left: 0px;">
         @foreach([1,2,3,4,5,6] as $item)
           <li class="item">
             <div class="gallery_box">
-              <div class="galleryImg"><img src="{{asset('images/galleryImg.jpg')}}"></div>
+              <div class="galleryImg"><img class="img-fluid" src="{{asset('images/galleryImg.jpg')}}"></div>
               <div class="gallerysec">
                 <div class="gallery_border">
                   <div class="heart_iconWrp"><a href="#"><i class="far fa-heart"></i></a></div>
@@ -98,10 +97,5 @@
       </ul>
     </div>
   </div>
-
-
-  @push('scripts')
-
-  @endpush
 
 </x-layout.app>

@@ -20,6 +20,7 @@
   {{--Style --}}
   <script src="{{asset('js/app.js')}}" defer></script>
 
+
 </head>
 
 <body>
@@ -34,10 +35,6 @@
 
 </main>
 
-<script src="{{asset('js/jquery.nice-select.js')}}"></script>
-<!-- general script file -->
-<script src="{{asset('js/owl.carousel.js')}}"></script>
-<script src="{{asset('js/script.js')}}"></script>
 
 @stack('scripts')
 
