@@ -187,8 +187,8 @@ Route::get('/admin/transaction', function () {
   return view('transaction.admin-index');
 });
 
-Route::get('/member', function () {
-  return view('member.member');
+Route::get('/clients/member', function () {
+  return view('client.member');
 });
 
 Route::get('/clients/listing', function () {
@@ -221,4 +221,12 @@ Route::get('/clients/create-your-profile', function () {
 
 Route::get('/clients/index', function () {
   return view('client.index');
+});
+
+Route::get('/clients/my-listing', function () {
+  return view('client.my-listing');
+});
+
+Route::get('/clients/my-profile', function () {
+  return view('client.my-profile');
 });

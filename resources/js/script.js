@@ -25,9 +25,6 @@ $('[data-toggle="offcanvas"]').on('click', function () {
   $('select').niceSelect();
 });
 
-
-
-
 /* ================ testimonials ================ */
     $(document).ready(function() {
         $(".owl-carousel").owlCarousel({
@@ -57,6 +54,38 @@ $('[data-toggle="offcanvas"]').on('click', function () {
     });
 
 
+// ----------------------Navbar-----------------------------------
+  $(document).ready(function() {
+    $("#open_nav").click(function () {
+      $(".mySidebar").show();
+      $("#open_nav").hide();
+    });
+    $("#close_nav").click(function () {
+      $(".mySidebar").hide();
+      $("#open_nav").show();
+    });
+    $(window).resize(function () {
+      var windowsize = $(window).width();
+      if (windowsize <= 360) {
+        $("#btn2").show();
+      } else {
+        $("#btn2").hide();
+      }
+    });
+    var windowsize = $(window).width();
+    if (windowsize <= 360) {
+      $("#btn2").show();
+    } else {
+      $("#btn2").hide();
+    }
+
+    $(".sidebar-togl").click(function () {
+      $(".sidenav").addClass("expanded");
+    });
+
+
+  });
+  $('#cascade-slider').cascadeSlider({});
 
 
 
@@ -93,3 +122,4 @@ $('[data-toggle="offcanvas"]').on('click', function () {
 
 
 })(jQuery);
+

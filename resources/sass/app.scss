@@ -29,14 +29,13 @@
 
 
 // Bootstrap
-// Variables
 @import 'variables';
 $primary: #611b92;
 @import '~bootstrap/scss/bootstrap';
 
 body {
   font-family: 'Cormorant SC';
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
   background-color: white;
 }
 
@@ -1940,4 +1939,741 @@ body {
 .btnWrp button {
   border: none;
   cursor: pointer;
+}
+
+
+/*********************************************
+    Favorite Css
+**********************************************/
+.formcol textarea.form-control {
+  height: 200px !important;
+}
+.favorite-wrap {
+  padding: 40px 0;
+}
+.favorite-wrap h3 {
+  margin-top: 10px;
+}
+.favorite-wrap h3 a {
+  font-size: 18px;
+  color: #000;
+  text-transform: inherit;
+  font-family: "Conv_CormorantGaramond-Light";
+}
+.iconswrp span {
+  margin-right: 8px;
+}
+.coin {
+  color: #cca43d;
+}
+.favorite-wrap p {
+  font-size: 16px;
+  font-family: "Conv_CormorantGaramond-Light";
+  margin-bottom: 5px;
+  color: #a0a0a0;
+}
+.pricingbox {
+  display: flex;
+}
+.priceInfo {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.priceInfo span {
+  font-weight: normal;
+  font-style: oblique;
+  text-decoration: line-through;
+  color: #a2a2a2;
+}
+
+.offprice {
+  font-size: 16px;
+  color: #d05e7d;
+  margin-left: 6px;
+  font-weight: 600;
+}
+.heart_icon {
+  float: right;
+  margin-left: 30px;
+  color: #626de9;
+}
+.favorite-wrap h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.favorite-wrap h1 i {
+  font-size: 24px;
+  color: #bdbdbd;
+}
+.favWro {
+  margin-bottom: 30px;
+}
+
+
+//======================
+// My Profile
+//========================
+
+.main-page-bg {
+  background-image: url("../images/SmokeBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar-toggler-icon {
+  height: 60px;
+  width: 75px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #0f0014;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 20px;
+  position: fixed;
+}
+
+.sidenav a {
+  font-size: 36px;
+  padding: 6px 0px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  /*margin-top: 25px;*/
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.sidenav img {
+  width: 100%;
+}
+
+.sidenav .logomain {
+  margin-left: -10px;
+  margin-top: -14px;
+  margin-bottom: 16px;
+}
+
+.sidenav .logo3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.slick-slider.cus-3d-slider {
+  margin: 30px 0;
+}
+
+.rateit.rateit-font {
+  margin: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sidenav {
+    display: none;
+  }
+
+  .my-btnnav {
+    width: 50%;
+    background-color: #800055;
+    opacity: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (min-width: 361px) {
+  /* button{
+    display: none;
+  } */
+}
+
+.form-inline {
+  position: relative;
+  top: 100%;
+  left: 350px;
+}
+
+.form-inline input {
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 10px;
+  height: 40px;
+  width: 550px;
+  padding-left: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  background: rgba(255,255,255,0.5);
+  border: 0;
+  border-radius: 0;
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: 0;
+  top: 30%;
+  font-size: 45px;
+  color: #C200B8;
+}
+
+.icons i {
+  padding-right: 12px;
+  color: #CE00BA;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.name {
+  text-align: center;
+  font-size: 85px;
+  color: #ffe6f7;
+  margin-left: 90px;
+  margin-top: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.div1 {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+}
+
+.div2 {
+  position: absolute;
+  top: 20%;
+  left: 44%;
+  z-index: 1;
+}
+
+.div3 {
+  position: absolute;
+  top: 25%;
+  left: 63%;
+}
+
+.div1 img {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  margin-top: 70px;
+}
+
+.div1 i {
+  font-size: 146px;
+  position: absolute;
+  top: 120px;
+  z-index: -1;
+  left: -87px;
+  color: #000;
+}
+
+.div3 i {
+  font-size: 146px;
+  position: absolute;
+  top: 120px;
+  left: 210px;
+  color: #000;
+  z-index: -1;
+}
+
+.div2 img {
+  border-radius: 100%;
+  height: 360px;
+  width: 360px;
+}
+
+.div3 img {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  margin-top: 70px;
+}
+
+.my-btn {
+  position: absolute;
+  top: 470px;
+  right: 600px;
+}
+
+.my-btn button {
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #000;
+  border: none;
+  font-family: 'Cormorant Garamond', serif !important;
+  margin-bottom: 20px;
+}
+
+.my-btn2 {
+  position: absolute;
+  /*bottom: -693px;*/
+  right: 600px;
+}
+
+.my-btn2 button {
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #000;
+  border: none;
+  font-family: 'Cormorant Garamond', serif !important;
+}
+
+.my-star i {
+  color: #ffc30b;
+  font-size: 3.75rem;
+}
+
+@media (max-width: 360px) {
+  .main-page-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: -4px;
+    font-family: 'Cormorant Garamond', serif;
+  ;
+  }
+
+  .div1 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+
+  .div2 {
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    z-index: 1;
+  }
+
+  .div3 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+  ;
+  }
+
+  .div1 img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .div1 i {
+    font-size: 32px;
+    position: absolute;
+    top: 65px;
+    left: -20px;
+    color: #3E1779;
+  }
+
+  .div3 i {
+    font-size: 32px;
+    position: absolute;
+    top: 65px;
+    left: 92px;
+    color: #3E1779;
+  }
+
+  .div2 img {
+    border-radius: 100%;
+    height: 180px;
+    width: 160px;
+    position: absolute;
+    /*top: 42px;*/
+  }
+
+  .div3 img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .my-btn {
+    position: absolute;
+    top: 260px;
+    right: 88px;
+  }
+
+  .my-btn button {
+    width: 180px;
+    height: 75px;
+    /*font-weight: bold;*/
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif !important;
+  }
+
+  .my-btn2 {
+    position: absolute;
+    top: 350px;
+    right: 88px;
+  }
+
+  .my-btn2 button {
+    width: 180px;
+    height: 75px;
+    /*font-weight: bold;*/
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif !important;
+  }
+
+  .my-star i {
+    color: #ffc30b;
+    font-size: 3rem;
+  }
+
+  .form-inline {
+    position: relative;
+    top: 100%;
+    left: -15%;
+  }
+
+  .form-inline input {
+    border-radius: 0px;
+    border: none;
+    height: 35px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: -65px;
+  }
+
+  .sidenav img {
+    /*display: none!important;       */
+  }
+
+  .icons {
+    display: none !important;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    /*margin-bottom: 15px;*/
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-family: 'Cormorant Garamond', serif !important;
+  }
+}
+
+
+/*
+  fed-code
+  */
+
+.testimonial-media img {
+  border-radius: 100%;
+  width: calc(100%);
+  height: calc(220px);
+  margin-bottom: 1rem;
+
+}
+
+.cs-button {
+  display: inline-block;
+  width: 100%;
+}
+
+.cs-button a {
+  background: black;
+  padding: 25px 50px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-family: 'Cormorant SC', serif;
+  font-size: 2.2rem;
+  display: inline-block;
+
+}
+
+.cs-button a:hover {
+  background-color: #0e76bc;
+  color: white;
+}
+
+h1.text-center.mb-3.marina {
+  text-align: center;
+  font-size: 85px;
+  color: #ffe6f7;
+  margin-top: 0px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+button.slick-prev.slick-arrow:before {
+  content: "\f100";
+  position: absolute;
+  top: -74px;
+  left: -93px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: black;
+  font-size: 146px;
+}
+
+button.slick-next.slick-arrow:before {
+  content: "\f101";
+  position: absolute;
+  top: -75px;
+  left: -9px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-weight: 900;
+  color: black;
+  font-size: 146px;
+  z-index: 0;
+}
+
+.logo3 img {
+  max-width: 50px;
+}
+
+.button-download {
+  display: inline-block;
+}
+
+.button-download .btn {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  line-height: 60px;
+  border-radius: 4px;
+  color: #fff;
+  background-size: 200% auto;
+  /* background-image: linear-gradient(to right, #8802a1, #620796, #329efb); */
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  transition: .3s ease-in-out;
+}
+
+.marina span {
+  font-size: 60px;
+}
+
+/* Nab */
+.testimonial-img {
+  width: 460px;
+  height: 470px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimonial-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cascade-slider_arrow {
+  width: 90px;
+  height: 90px;
+}
+
+.sec-testmonial {
+  /* margin-bottom: 100px; */
+}
+
+span.cascade-slider_arrow.cascade-slider_arrow-right {
+  transform: rotate(180deg);
+}
+
+.testimonial-details {
+  visibility: hidden;
+  transition: all 0.4s;
+}
+
+.cascade-slider_item.now .testimonial-details {
+  visibility: visible;
+}
+
+.slider-wrap {
+  min-height: 640px;
+  //margin-top: -60px;
+}
+
+.rating-stars ul>li.star.selected img.deactive,
+.rating-stars ul>li.star img.active {
+  display: none;
+}
+
+.rating-stars ul>li.star.selected img.active {
+  display: block;
+}
+
+/* .sidebar-togl {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+} */
+button#close_nav {
+  position: absolute;
+  left: 0;
+  top: 9px;
+  left: 22px;
+  top: 10px;
+}
+@media (min-width: 1024px) {
+  button#close_nav {
+    display: none;
+  }
+}
+
+@media (max-width: 1450px) {
+  .sec-testmonial .container {
+    max-width: 840px;
+  }
+  .form-inline input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* .sidenav {
+    transform: translate(-220px, 0px);
+  }
+  .sidenav.expanded {
+    transform: translate(0px, 0px);
+  } */
+  button#close_nav {
+    display: block !important;
+  }
+  button#close_nav .fa{
+    color: #bb973a;
+  }
+
+
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(187, 151, 58)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media (max-width: 1024px) {
+  .testimonial-media img {
+    width: calc(72%);
+    height: calc(216px);
+    margin: 0 auto;
+  }
+  .sec-testmonial{
+    padding-left: 0px !important;
+  }
+  .testimonial-img{
+    width: 350px;
+    height: 316px;
+  }
+  .form-inline input {
+    width: 400px;
+    display: none;
+  }
+  .sidenav{
+    display: none;
+  }
+  .slider-wrap {
+    margin-top: -80px;
+  }
+  .rating-stars ul > li.star.selected img.active{
+    width: 100px;
+  }
+
+}
+
+button#rateit-reset-2 {
+  display: none !important;
+}
+
+rateit-font .rateit-range>div,
+.rateit-font .rateit-range>span {
+  background: none;
+  overflow: hidden;
+  cursor: default;
+  color: #a18031;
+  font-size: 70px;
+}
+
+.rateit {
+  color: gray;
+}
+
+.testimonial-details .rating-stars {
+  margin: 25px auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.testimonial-details .rating-stars ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-details .rating-stars ul li {
+  margin: 0 2px;
 }

@@ -10,6 +10,8 @@ require('./libraries/animate');
 require('./libraries/jquery.nice-select');
 require('./libraries/owl.carousel');
 require('./libraries/select2.min');
+require('./libraries/aos');
+require('./libraries/cascade-slider');
 require('./script');
 
 
